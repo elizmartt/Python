@@ -8,8 +8,6 @@ else:
     x = parts[0]
     operator = parts[1]
     y = parts[2]
-
-
     if operator == "+":
         result = int(x) + int(y)
         print(result)
